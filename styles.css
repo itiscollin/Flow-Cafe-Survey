@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:wght@300&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22.5px;
+  position: relative;
+  background: url(https://images.unsplash.com/photo-1494346480775-936a9f0d0877?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1303&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#all {
+  font-size: 20px;
+  box-shadow: 5px 9px rgb(177, 93, 20);
+  padding: 20px 10%;
+  align-items: center;
+  justify-items: center;
+  margin: 5% 25%;
+  background: rgba(255, 255, 255, 0.965);
+}
+
+.fill-in {
+  width: 100%;
+  height: 35px;
+  border: rgb(0, 0, 0);
+}
+option {
+  display: flex;
+}
+#role {
+  font-size: 18px;
+  width: 50%;
+  height: 40px;
+  border: 1px;
+}
+
+#feature {
+  font-size: 18px;
+  width: 50%;
+  height: 40px;
+  border: 1px;
+}
+
+.improve {
+  display: flex;
+  padding: 5px 0;
+}
+
+.button {
+  display: flex;
+  padding: 5px 0;
+}
+
+#comment-box {
+  font-size: 18px;
+  width: 500px;
+  height: 100px;
+  border: 1px;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  margin: 0%;
+}
+
+#title {
+  padding-bottom: 0%;
+  margin: 0;
+}
+#description {
+  padding-top: 0%;
+  margin: 0;
+}
+
+#submit {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#submit-btn {
+  width: 300px;
+  height: 50px;
+  border: 0ch;
+  border-radius: 20px;
+  color: white;
+  text-transform: bold;
+  background-color: rgb(177, 93, 20);
+}

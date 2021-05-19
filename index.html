@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="all">
+      <main>
+        <h1 id="title">Noir Cafe Survey Form</h1>
+        <p id="decription">
+          Thank you for helping us to us to improve our service
+        </p>
+      </main>
+      <form id="survey-form">
+        <div id="full-name">
+          <label for="fname">Full Name</label><br />
+          <input
+            class="fill-in"
+            id="fname"
+            name="fname"
+            type="text"
+            required
+            placeholder="Enter your full name"
+          /><br />
+        </div>
+        <br />
+        <div id="email">
+          <label for="email">Email</label><br />
+          <input
+            class="fill-in"
+            for="email"
+            name="email"
+            type="email"
+            inputmode="email"
+            required
+            placeholder="Enter your email"
+          /><br />
+        </div>
+        <br />
+        <div id="age">
+          <label for="age">Age (Optional)</label><br />
+          <input
+            class="fill-in"
+            form="age"
+            name="age"
+            inputmode="numeric"
+            type="number"
+            placeholder="Enter your age"
+          /><br />
+        </div>
+        <br />
+        <div id="current-role">
+          <label for="role">Which option describe your current role?</label
+          ><br />
+          <select name="role" id="role">
+            <option disabled selected value>Select your current role</option>
+            <option value="High School student">High School student</option>
+            <option value="College student">College student</option>
+            <option value="Working Adult">Working Adult</option>
+            <option value="Retired">Retired</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+          </select>
+        </div>
+        <div id="radio">
+          <p for="recommend">Would you recommend Noir cafe to a friend?</p>
+          <label class="button"
+            ><input
+              name="recommend"
+              id="definitely"
+              value="definitely"
+              type="radio"
+            />Definitely</label
+          >
+          <label class="button"
+            ><input
+              id="maybe"
+              value="maybe"
+              type="radio"
+              name="recommend"
+              name="recommend"
+            />Maybe</label
+          >
+          <label class="button"
+            ><input
+              id="unlikely"
+              value="unlikely"
+              type="radio"
+              name="recommend"
+            />Unlikely</label
+          >
+        </div>
+        <br />
+        <div id="favourite">
+          <label for="feature">Which feature was your favourite?</label><br />
+          <select name="feature" id="feature">
+            <option class="" disabled selected value>
+              Select your favourite feature
+            </option>
+            <option value="Menu choice">Menu choice</option>
+            <option value="Coffee Art">Coffee Art</option>
+            <option value="Cafe Pets">Cafe Pets</option>
+            <option value="Surrounding Arts">Surrounding Arts</option>
+            <option value="Live music">Live music</option>
+          </select>
+        </div>
+        <div id="checkbox">
+          <p>What would you'd like us to improve?</p>
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Service Quality" />Service
+            Quality</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Food Quality" />Food Quality</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="More Menu" />More Menu</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Waiting Time" />Waiting Time</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Hygience" />Hygience</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Pet care" />Pet care</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Coffe Art" />Coffe Art</label
+          >
+          <label class="improve" name="improve"
+            ><input type="checkbox" value="Live Music" />Live Music</label
+          >
+        </div>
+        <div id="comment" class="comment">
+          <p>Any further comments?</p>
+          <textarea
+            id="comment-box"
+            class="comment"
+            placeholder="Enter your comment here"
+          ></textarea>
+        </div>
+        <br />
+        <div id="submit">
+          <input id="submit-btn" type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
